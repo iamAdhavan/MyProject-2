@@ -1,0 +1,311 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background: url('./Images/Net.jpg') center/ cover no-repeat ; */
+}
+.BG{
+  background-color: #000;
+  background: url('./Images/Net.jpg') no-repeat;
+  
+  
+  
+  
+
+  /* position:absolute; */
+}
+
+.hero-section {
+    /* position: relative; */
+    height: 100vh;
+    
+
+    background: linear-gradient(to top, rgba(76, 75, 75, 0.331), rgba(0, 0, 0, 0.774)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/27ad0e5f-92d6-4b9b-9b8b-1eaa2ac45a25/455c59a5-b79f-4d52-90d7-9a53e6b72b09/US-en-20230220-popsignuptwoweeks-perspective_alpha_website_medium.jpg") center / cover no-repeat;
+    /* background-color: #e50914; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251, 250, 250);
+
+    
+    
+
+  }
+  input::placeholder{
+    color: rgba(255, 255, 255, 0.676);
+  }
+  
+  .overlay {
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    
+    
+    z-index: 1;
+
+  }
+  
+  .hero-content {
+    /* position: relative; */
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight:800;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    /* background: transparent; */
+  }
+
+  .cta-container::placeholder{
+    /* color: #ffffff00; */
+  }
+  
+  .email-input {
+    width: 50%;
+    height: 35px;
+    padding: 10px 15px;
+    background-color: #ffffff00;
+    border:1px solid rgb(248, 243, 243) ;
+    border-radius: 4px;
+    font-size: 17px;
+    color: #ffffff;
+    /* padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+    max-width: 300px; */
+  }
+
+  .email-input ::placeholder{
+    /* color: #ff0000; */
+
+  }
+  
+  .get-started-button {
+    background-color: #e50914;
+    color: white;
+    height: 57px;
+    width: 170px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .get-started-button:hover {
+    background-color: #f40612;
+  }
+  
+
+
+
+  
+/*   
+  /* Global styles */
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; 
+  color: #fff; 
+} */ */
+
+.sec_1{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* width: 100%; */
+  /* position: ; */
+  display:grid;
+}
+.trending-container{
+  max-width: 70%;
+  margin: auto;
+    padding: 20px;
+}
+  
+
+.trending-now {
+  padding: 30px;
+  background-color: #0e0909; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* margin: 20px 0; */
+  display: grid;
+
+
+}
+
+
+.trending-now h2 {
+  
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.trending-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+   flex-shrink: 0; 
+  /* background: #1c1c1c;  */
+ 
+   overflow-x: auto; 
+  scrollbar-width:auto; 
+  width: 100%; 
+  /* height: 50%; */
+
+}
+
+.trending-cards::-webkit-scrollbar {
+  display: none;      
+}
+
+.card {
+  /* position: relative; */
+ /* min-width: 100px;  */
+ /* height:100%;     */
+  /* border-radius: 10px; */
+  /* width: 100%; */
+  /* max-width: 400px; */
+  /* height: auto; */
+ /* overflow: hidden; */
+  /* flex-shrink: 0; Prevent shrinking in scrollable container */
+  /* background: #1c1c1c;  */
+
+
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  
+  
+  
+
+}
+
+.number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 6px #000; /* Add shadow for better readability */
+}
+
+/* More Reasons to Join Section */
+
+.sec_1{
+  max-height: 70vh;
+  /* display: flex; */
+}
+.reasons-to-join-container{
+  max-width: 70%;
+  margin:auto;
+  
+  
+}
+.reasons-to-join{
+  background-color: #000;
+  height: 60vh;
+  /* max-width: 70%; */
+}
+
+.reasons-to-join h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.reasons-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px;
+
+}
+
+.reason-card {
+  background: linear-gradient(145deg, #0a1339dc, #111147dd); /* Netflix-style gradient */
+  padding: 20px;
+  border-radius: 10px;
+  height: 150%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: transform 0.2s ease-in-out;
+}
+
+.reason-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.reason-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.reason-card p {
+  font-size: 14px;
+  color: #ccc; /* Slightly dimmed text */
+}
+
+
+/* @media (max-width: 1080px) {
+  .trending-now h2,
+  .reasons-to-join h2 {
+    font-size: 20px;
+  }
+
+  .card img {
+    height: 150px; 
+  }
+
+  .reason-card h3 {
+    font-size: 16px;
+  }
+} */
+
+
+
+

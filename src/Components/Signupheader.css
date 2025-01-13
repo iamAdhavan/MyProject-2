@@ -1,0 +1,30 @@
+.signup-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  border: 1px solid rgba(189, 178, 178, 0.598);
+
+  
+  
+}
+.signup-logo {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  margin-left: 30px;
+  /* margin-bottom: 30px; */
+
+  
+}
+.signup-page-button {
+    background-color: #e50914;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    margin-right: 40px;
+  }

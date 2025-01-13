@@ -1,0 +1,35 @@
+.movie-row {
+    /* margin: 20px; */
+    height: 90vh;
+    /* width: 90%; */
+    /* display: flex; */
+    color: white;
+    background: #000;
+    
+  }
+  .movie-row h2{
+    padding-top: 40px;
+  }
+  
+  .row-title {
+    font-size: 1.5rem;
+    /* margin-top: 10px; */
+    
+  }
+  
+  .row-cards {
+    display: flex;
+    /* overflow-x: auto; */
+    gap: 20px;
+    height: 400px;
+    margin-top: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+  }
+  
+  .row-cards::-webkit-scrollbar {
+    display: none;
+  }
+  

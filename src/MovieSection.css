@@ -1,0 +1,68 @@
+.movie-section {
+    /* margin: 20px; */
+    background-color: black;
+    /* width: 90%; */
+  }
+  
+ .app-bg{
+  background-color: black;
+  color: white;
+  max-width: 800px;
+  /* width: 90%; */
+ } 
+
+ /* .movie-container{
+  ;
+ } */
+
+ .movie-sec{
+  background-color: black;
+ }
+  .section-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .movie-row {
+    background-color: black;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    gap: 10px;
+    
+  }
+  
+  .movie-row::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner look */
+  }
+  
+  .movie-card {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: auto;
+   }
+
+  
+  .movie-title {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration:none;
+  }
+  
