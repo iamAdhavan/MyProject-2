@@ -18,7 +18,7 @@ const LoginPage = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:5000/login", {
+      const response = await axios.post("https://flask-1-1.onrender.com/api/login", {
         email,
         password,
       });
