@@ -82,9 +82,9 @@
     /* background: transparent; */
   }
 
-  .cta-container::placeholder{
-    /* color: #ffffff00; */
-  }
+  /* .cta-container::placeholder{
+    color: #ffffff00;
+  } */
   
   .email-input {
     width: 50%;
@@ -103,10 +103,10 @@
     max-width: 300px; */
   }
 
-  .email-input ::placeholder{
-    /* color: #ff0000; */
+  /* .email-input ::placeholder{
+    color: #ff0000;
 
-  }
+  } */
   
   .get-started-button {
     background-color: #e50914;
@@ -129,19 +129,19 @@
 
 
   
-/*   
+  
   /* Global styles */
 /* body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #000; 
   color: #fff; 
-} */ */
+} */ 
 
 .sec_1{
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 60vh;
   /* width: 100%; */
   /* position: ; */
   display:grid;
@@ -269,7 +269,7 @@
   background: linear-gradient(145deg, #0a1339dc, #111147dd); /* Netflix-style gradient */
   padding: 20px;
   border-radius: 10px;
-  height: 150%;
+  height: 120%;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
   transition: transform 0.2s ease-in-out;
