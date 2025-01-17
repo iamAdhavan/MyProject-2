@@ -12,7 +12,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://flask-1-2.onrender.com/api/signup', {
+      const response = await fetch('https://flask-2-olz7.onrender.com/api/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
