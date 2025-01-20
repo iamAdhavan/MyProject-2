@@ -47,7 +47,25 @@ function Main() {
     <div className="BG">
       
       <div className="fix">
-      <Navbar />
+      // <Navbar />
+    <div className="navbar">
+      
+      <img src="https://images.ctfassets.net/y2ske730sjqp/821Wg4N9hJD8vs5FBcCGg/9eaf66123397cc61be14e40174123c40/Vector__3_.svg?w=460" alt="Netflix Logo" className="navbar-logo" />
+      
+      <div className="navbar-items">
+        <div className="dropdown-container">
+          <i className="bi bi-globe2"></i>
+          <select className="language-dropdown">
+          
+           <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+            
+          </select>
+        </div>
+        <button onClick={() => navigate("/Login")} className="signin-button">Sign In</button>
+      </div>
+    
+    </div>
       <div className="hero-section">
         <div className="overlay">
           <div className="hero-content">
