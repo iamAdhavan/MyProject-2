@@ -16,24 +16,7 @@ function Navbar() {
     const navigate = useNavigate();
 
   return (
-    <div className="navbar">
-      
-      <img src="https://images.ctfassets.net/y2ske730sjqp/821Wg4N9hJD8vs5FBcCGg/9eaf66123397cc61be14e40174123c40/Vector__3_.svg?w=460" alt="Netflix Logo" className="navbar-logo" />
-      
-      <div className="navbar-items">
-        <div className="dropdown-container">
-          <i className="bi bi-globe2"></i>
-          <select className="language-dropdown">
-          
-           <option value="en">English</option>
-            <option value="hi">हिंदी</option>
-            
-          </select>
-        </div>
-        <button onClick={() => navigate("/Login")} className="signin-button">Sign In</button>
-      </div>
-    
-    </div>
+    <div></div>
   );
 }
 
