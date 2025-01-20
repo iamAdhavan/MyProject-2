@@ -47,7 +47,7 @@ function Main() {
     <div className="BG">
       
       <div className="fix">
-      // <Navbar />
+
   
       <div className="hero-section">
       <div className="navbar">
